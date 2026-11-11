@@ -11,7 +11,8 @@
 3. 把研究問題、必要方法、結果與限制整理成證據表，再做逐頁大綱。
 4. **使用論文原圖與原表**，以全貌、panel 放大、讀圖與解釋建立理解。
 5. 用作者結論、實際證據與報告者評讀三個層次討論，最後回答開場問題。
-6. 核對數字、圖表完整性與實際投影片渲染。
+6. **在 Take-home message 的前一頁固定放一頁 Graphical Abstract**，版型依 AJKD visual abstract（Design｜Key Variables｜Results 三欄、CONCLUSION 框、作者與 DOI 頁尾），結果欄用原圖裁切。
+7. 核對數字、圖表完整性與實際投影片渲染。
 
 預設不使用 AI 圖、素材圖、自製示意圖或重畫 paper 統計圖。找不到合適原圖時用有來源的文字說明，不造圖補位。標題、解讀、來源與重點標註保留可編輯。
 
@@ -38,6 +39,7 @@
 | [slide_patterns.md](slide_patterns.md) | 依教學問題選版面、連續帶讀與樣式 |
 | [references/derivation.md](references/derivation.md) | 五份範例的頁次對照、來源配對、原版規則的修改理由 |
 | [references/paper_figures.md](references/paper_figures.md) | 原圖搜尋、裁切、標註與引用 |
+| [references/graphical_abstract.md](references/graphical_abstract.md) | 必備的 Graphical Abstract 頁：位置、AJKD 版型座標與色碼、三欄內容、logo 與圖片限制 |
 | [references/quality_checks.md](references/quality_checks.md) | 內容、數字、圖片與渲染驗證 |
 | [scripts/paper_assets.py](scripts/paper_assets.py) | PDF 索引、預覽、原圖裁切、雜湊與像素驗證 |
 | [tests/test_paper_assets.py](tests/test_paper_assets.py) | 擷取工具的功能測試 |
