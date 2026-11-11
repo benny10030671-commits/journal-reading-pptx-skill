@@ -4,7 +4,10 @@
 
 | 測試要求 | 應觀察的行為 | 失敗訊號 |
 |---|---|---|
-| 用 ATLAS 主文與 supplement，做含封面與文獻共 12 頁 | 選研究導讀；保留研究問題、方法、baseline、主要結果、安全性、不確定性、結語；總共 12 頁 | 為了章節模板偷偷多加頁；把所有篇幅用在背景；自己重畫 mRS 圖 |
+| 用 ATLAS 主文與 supplement，做含封面與文獻共 12 頁 | 選研究導讀；保留研究問題、方法、baseline、主要結果、安全性、不確定性、Graphical Abstract、結語；總共 12 頁 | 為了章節模板偷偷多加頁；把所有篇幅用在背景；自己重畫 mRS 圖；為了湊 12 頁拿掉 Graphical Abstract |
+| 任一篇研究導讀，使用者沒有提到 graphical abstract | 倒數出現一頁 AJKD 版型的 Graphical Abstract，下一頁就是 Take-home；三欄內容與證據表一致；Results 欄是原圖裁切加可編輯數值 | 沒有這頁；放在開場或 Take-home 之後；用 AI 生成整張摘要圖；重畫 KM／forest plot；把報告者評讀寫進 CONCLUSION |
+| 論文刊在非 AJKD 期刊，且使用者指定了自己的模板 | 仍做 Graphical Abstract；三欄結構不變，頁尾以文字寫該期刊、年份與 DOI，並註明報告者自製 | 因為不是 AJKD 或有模板就省略；貼上 AJKD／期刊 logo 或 `@AJKDonline` |
+| 論文沒有可用的結果圖 | Results 欄改用原表裁切，或附分母與區間的文字數值 | 自製長條圖或示意圖補位；留空不做這頁 |
 | 用 CMT paper 講「WGS 到底增加什麼」 | 區分整體 cohort、proband、100KGP 與新增 yield；以原圖與原文核對分母 | 把整體診斷率直接當成 WGS 單獨診斷率 |
 | 僅給 Reeves 系列導論，要求像 65 頁 adaptive 範例一樣深入 | 從參考 deck 辨識另有來源；繼續做已核實的背景與規劃，精準列缺件 | 聲稱導論含所有 trial figures；生成不存在的 adaptive 示意圖 |
 | 用 CRS-R cohort paper 製作量表操作課 | 分清 cohort 應用與原始操作／驗證文獻；需要時找原始文獻，找不到就說明缺件 | 從 cohort 推出全部施測規則；複製範例裡的 AI 病人插圖 |

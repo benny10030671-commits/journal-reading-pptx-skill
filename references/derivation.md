@@ -85,3 +85,16 @@ ATLAS deck s17 圖下編號與提供的主文 caption 不一致；新簡報使�
 | 依賴指定 PPTX skill 路徑與工具 | 改使用實際可用的簡報實作能力，本 skill 專注內容與證據 |
 
 保留：先規劃再製作、每頁有用途、來源註記、閱讀負擔控制、實際渲染與修正。修改：以 journal reading 的理解順序和原文證據取代泛用 conference pitch 規則。
+
+## 6. 使用者指定的固定頁面：Graphical Abstract
+
+2026-11-11 使用者另外指定：每份簡報在 Take-home message 之前固定加一頁 Graphical Abstract，以 AJKD 的 visual abstract 為版型。這條**不是**從五份範例歸納的，所以獨立記在這裡。
+
+| 項目 | 處理 |
+|---|---|
+| 版型依據 | 使用者提供的一張 AJKD visual abstract（Ruggenenti et al.，DOI `10.1053/j.ajkd.2023.10.013`）。量測其標題區、欄名色帶、三欄寬度、CONCLUSION 框、頁尾色帶的比例與色碼，換算成 16:9 座標，並實際排版渲染確認 |
+| 與原圖規則的關係 | 版面框架是可編輯物件；Results 欄仍只用原圖／原表裁切。AJKD 官方版會重繪圖表與加圖示，本 skill 不跟 |
+| 不放 logo 的理由 | 這頁由報告者製作。貼上期刊 logo 或社群帳號會被誤認為期刊官方產物，也涉及第三方商標 |
+| 與 Take-home 的分工 | Graphical Abstract 呈現作者層次的設計、結果與結論；Take-home 呈現報告者的評讀。延續「作者結論、實際結果、報告者評讀」分開的原則 |
+
+該參考圖未放入 repository。完整規格見 [graphical_abstract.md](graphical_abstract.md)。

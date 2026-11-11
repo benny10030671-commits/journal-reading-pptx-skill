@@ -1,4 +1,4 @@
 interface:
   display_name: "Journal Reading PPTX"
   short_description: "Paper-based journal club logic and original-figure slides"
-  default_prompt: "Use $journal-reading-pptx to turn the supplied papers and supplements into a journal reading presentation with original paper figures and critical appraisal."
+  default_prompt: "Use $journal-reading-pptx to turn the supplied papers and supplements into a journal reading presentation with original paper figures, critical appraisal, and an AJKD-style graphical abstract slide before the take-home message."
