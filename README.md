@@ -7,14 +7,19 @@
 ## 它會怎麼做
 
 1. 配對主文、supplement、相關文獻與參考簡報，先核實來源。
-2. 依用途選擇研究導讀、觀念／機轉、臨床工具三種教學路徑。
-3. 把研究問題、必要方法、結果與限制整理成證據表，再做逐頁大綱。
-4. **使用論文原圖與原表**，以全貌、panel 放大、讀圖與解釋建立理解。
-5. 用作者結論、實際證據與報告者評讀三個層次討論，最後回答開場問題。
-6. **在 Take-home message 的前一頁固定放一頁 Graphical Abstract**，版型依 AJKD visual abstract（Design｜Key Variables｜Results 三欄、CONCLUSION 框、作者與 DOI 頁尾），結果欄用原圖裁切。
-7. 核對數字、圖表完整性與實際投影片渲染。
+2. **先取捨**：寫下一到三個主訊息，把內容分成必講、帶過、不放正文，時間依輕重分配，不把整篇論文平均搬上投影片。交付時附取捨清單，讓報告者自己再刪改。
+3. 依用途選擇研究導讀、觀念／機轉、臨床工具三種教學路徑。
+4. 把研究問題、必要方法、結果與限制整理成證據表，再做逐頁大綱。
+5. **使用論文原圖與原表**，以全貌、panel 放大、讀圖與解釋建立理解。
+6. **每頁只留幾條短句、字放大、版面用滿**，同頁有幾個依序講的要點時逐步揭露。細節留給口頭。
+7. 用作者結論、實際證據與報告者評讀三個層次討論，最後回答開場問題。
+8. **在 Take-home message 的前一頁固定放一頁 Graphical Abstract**，版型依 AJKD visual abstract（Design｜Key Variables｜Results 三欄、CONCLUSION 框、作者與 DOI 頁尾），結果欄用原圖裁切。
+9. **Speaker notes 寫成講解提示，不是逐字稿。** 要英文講稿時，優先潤飾報告者自己寫的草稿；代為起稿時寫成口語短句，另存成練習用文件。
+10. 核對數字、文字量與字級、圖表完整性與實際投影片渲染。
 
-預設不使用 AI 圖、素材圖、自製示意圖或重畫 paper 統計圖。找不到合適原圖時用有來源的文字說明，不造圖補位。標題、解讀、來源與重點標註保留可編輯。
+研究結果的圖表只用論文原圖與原表，不使用 AI 生成的圖片、素材圖或重畫的 paper 統計圖。研究設計、時間軸、概念關係這類非數據內容，論文沒有合適的圖時，可以用簡報內建形狀畫成可編輯的示意圖，並標明是報告者自繪。找不到原文證據時用有來源的文字說明，不造圖冒充。標題、解讀、來源與重點標註保留可編輯。
+
+這個 skill 產出的是讓報告者接手修改的草稿。哪些內容值得講、要怎麼講，最後由報告者決定。
 
 ## 使用
 
@@ -28,19 +33,24 @@
 
 > 幫我把這幾篇文獻整理成機轉教學型 journal club。每篇只保留回答共同問題所需的方法與原圖，最後整合它們支持與無法支持的結論。
 
+或：
+
+> 這篇 RCT 我只有 12 分鐘。我想強調主要結果和安全性，亞組分析帶過就好。做完簡報後，幫我潤飾我自己寫的英文講稿，只改文法和不自然的地方。
+
 本 skill 處理內容與製作判斷；PPTX／Google Slides 等實際建立與匯出由使用環境的簡報工具完成，未綁定某一套雲端服務或不存在的固定路徑。
 
 ## 檔案
 
 | 檔案 | 功能 |
 |---|---|
-| [SKILL.md](SKILL.md) | 入口、原圖規則與整體工作流程 |
-| [content_guidelines.md](content_guidelines.md) | 三條教學路徑、讀圖、數字與推論 |
-| [slide_patterns.md](slide_patterns.md) | 依教學問題選版面、連續帶讀與樣式 |
-| [references/derivation.md](references/derivation.md) | 五份範例的頁次對照、來源配對、原版規則的修改理由 |
+| [SKILL.md](SKILL.md) | 入口、核心約定與整體工作流程 |
+| [content_guidelines.md](content_guidelines.md) | 取捨、三條教學路徑、讀圖、數字與推論 |
+| [slide_patterns.md](slide_patterns.md) | 依教學問題選版面、每頁文字量、字級與版面使用、可編輯示意圖、逐步揭露與動畫 |
+| [references/speaker_notes.md](references/speaker_notes.md) | 備忘稿寫法、英文講稿的潤飾與起稿、講稿放置位置 |
+| [references/derivation.md](references/derivation.md) | 五份範例的頁次對照、來源配對、原版規則的修改理由、使用者指定規則的依據 |
 | [references/paper_figures.md](references/paper_figures.md) | 原圖搜尋、裁切、標註與引用 |
 | [references/graphical_abstract.md](references/graphical_abstract.md) | 必備的 Graphical Abstract 頁：位置、AJKD 版型座標與色碼、三欄內容、logo 與圖片限制 |
-| [references/quality_checks.md](references/quality_checks.md) | 內容、數字、圖片與渲染驗證 |
+| [references/quality_checks.md](references/quality_checks.md) | 內容、數字、聽眾負擔、圖片與渲染驗證 |
 | [scripts/paper_assets.py](scripts/paper_assets.py) | PDF 索引、預覽、原圖裁切、雜湊與像素驗證 |
 | [tests/test_paper_assets.py](tests/test_paper_assets.py) | 擷取工具的功能測試 |
 | [tests/scenarios.md](tests/scenarios.md) | 維護時的情境檢查題目 |
